@@ -1,0 +1,14 @@
+ /* start out with global styles, and then get more specific */
+body{
+    /* 3 ways to set up colors - named colors "red" or "green", rgb - red/green/blue combinations, hex values - combo of letters and numbers that magically relate to colors */
+    background-color: rgb(12, 12, 109); 
+    /* change the text color to something lighter */
+    color: rgb(222, 211, 211);
+    /* change the font for the whole page, unless a more specific change is made on an element */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h2{
+    color: rgb(133, 167, 133);
+}
