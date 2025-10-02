@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rae's Recipe Website</title>
+
+    <!-- add the link to the CSS file -->
+    <link rel="stylesheet" href="recipe.css">
+
+    <!-- embedded styles - TODO: move to external CSS file -->
+    <style>
+
+        /* # is where you have a style that relates to the ID of an element 
+        #pageHeader{
+            color: yellow;
+        }*/
+    </style>
+</head>
+<body>
+    <!-- top section of the page - menu/logo/page title can go here -->
+    <header id="pageHeader">
+        <!-- our menu with links to our other recipe pages will go in the nav section -->
+        <nav>
+            <!-- TODO: add menu -->
+        </nav>
+
+        <h1>Welcome to Rae's Recipe Website</h1>
+    </header>
+
+    <!-- core content goes in main -->
+    <main>
+
+        <!-- this is the parent container for our flexible layout of our top 3 recipes -->
+        <section class="flex-container">
+            <h2>Here are the top recipes!</h2>
+
+            <!-- this article will hold our recipe details -->
+            <article class="column">
+                <h2>Salad Recipe</h2>
+                <p>This is a yummy salad.</p>
+                <img src="./images/recipe1.jpg" alt="decorative food" class="img-recipe">
+            </article>
+
+             <!-- this article will hold our recipe details -->
+            <article class="column">
+                <h2>Another Salad Recipe</h2>
+                <p>This is another yummy salad.</p>
+                <img src="./images/recipe2.jpg" alt="decorative food" class="img-recipe">
+            </article>
+
+             <!-- this article will hold our recipe details -->
+            <article class="column">
+                <h2>Salad Recipe, Again</h2>
+                <p>This is yet another yummy salad.</p>
+                <img src="./images/recipe3.jpg" alt="decorative food" class="img-recipe">
+            </article>
+        </section>
+    </main>
+</body>
+</html>
